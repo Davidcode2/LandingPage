@@ -18,6 +18,19 @@ a {
   padding-left: 16px;
 }
 
+img {
+  border-radius: 30px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+button {
+  background-color: #3882F6;
+  font-family: Inconsolata;
+  padding: 5px 10px;
+  border-color: #3882F2;
+  border-radius: 20px;
+}
+
 .header {
   background-color: #1F2937;
   display: flex;
@@ -98,6 +111,10 @@ a {
   border-radius: 10px;
 }
 
+.card-subtext {
+  padding: 8px;
+}
+
 .content2 {
   padding-left: 150px;
   padding-right: 150px;
@@ -125,14 +142,20 @@ a {
   background-color: #3882F6;
   padding: 40px;
   color: white;
+  font-size: 18px;
+  font-weight: bold;
   border-radius: 10px;
 }
 
 .line {
   display: flex;
+  font-size: 15px;
+  font-weight: normal;
 }
 .signup2 {
   margin-left: auto;
+  border-color: #E5E7EB;
+  background-color: #E5E7EB;
 }
 
 .footer {
@@ -140,6 +163,7 @@ a {
   justify-content: center;
   align-items: center;
   background-color: #1F2937;
+  font-family: Inconsolata;
   padding: 20px;
   color: white;
   font-size: 12px;
